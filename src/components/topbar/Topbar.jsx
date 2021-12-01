@@ -13,7 +13,7 @@ function Topbar() {
         {" "}
         <Home className="icons"/><span>Home</span>{" "}
       </a> 
-      <a href="/about">
+      <a href="">
         {" "}
         <Person className="icons" /> <span>About</span>{" "}
       </a>

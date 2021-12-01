@@ -7,7 +7,7 @@ function About() {
     return (
        
         <div className="acerca">
-             <Topbar/>
+
 
 <section className="about">
 

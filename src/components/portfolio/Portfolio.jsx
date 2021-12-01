@@ -6,7 +6,7 @@ import { Book , Update } from "@material-ui/icons";
 function Portfolio() {
   return (
     <div className="projects">
-      <Topbar />
+     
 
       <section className="portfolio">
         <h1 className="heading">

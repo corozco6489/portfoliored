@@ -23,7 +23,7 @@ function Inicio() {
 
     return (
         <div >
-           <Topbar/>
+           {/* <Topbar/> */}
            <section className="home">
 
 <div className="image">

@@ -41,7 +41,7 @@ function Contact() {
   };
   return (
     <div className="contacto">
-      <Topbar />
+   
 
       <section className="contact">
         <h1 className="heading">

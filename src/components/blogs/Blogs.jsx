@@ -5,7 +5,7 @@ import { Link , CalendarToday ,Person} from "@material-ui/icons";
 function Blogs() {
   return (
     <div className="blog">
-      <Topbar />
+   
 
       <section className="blogs">
         <h1 className="heading">
