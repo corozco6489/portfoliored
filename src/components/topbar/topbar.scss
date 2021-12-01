@@ -1,0 +1,38 @@
+@import "../../global.scss";
+
+.navbar{
+  position: fixed;
+  bottom:0; left:0; right:0;
+  display: flex;
+  z-index: 1000;
+  align-items: flex-end;
+
+  a{
+    padding:2rem;
+    font-size: 2rem;
+    background: $light-bg;
+    flex:1;
+    color:$white;
+    text-align: center;
+    transition: .2s linear;
+    text-decoration: none;
+
+    .icons{
+      color:$crimson;
+      padding-right: .5rem;
+      font-size: 30px;
+    }
+    span{
+      text-decoration: none;
+    }
+
+    &:hover{
+      background: $crimson;
+      padding-bottom: 6rem;
+
+      .icons{
+        color:$white;
+      }
+    }
+  }
+}
