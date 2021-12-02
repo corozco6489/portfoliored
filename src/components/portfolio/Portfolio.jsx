@@ -35,7 +35,7 @@ function Portfolio() {
     },
     {
       id: "mobile",
-      title: "Python",
+      title: "IoT",
     },
     {
       id: "design",
@@ -96,8 +96,7 @@ function Portfolio() {
             <div className="content">
               <h3>{d.title}</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Distinctio, praesentium.
+                {d.description}
               </p>
               <div className="links">
               <a href={d.link} target="_blank"> <GitHub className="fas"/></a>
