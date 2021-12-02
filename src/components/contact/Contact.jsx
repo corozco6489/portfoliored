@@ -54,9 +54,8 @@ function Contact() {
             <h1>get in touch</h1>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-              dolorem sunt sapiente vel minus eaque voluptate fugit corrupti
-              omnis tempora?
+            I am an Electronics and Communications Engineer from Ecuador
+
             </p>
 
             <div className="box-container">
@@ -66,7 +65,7 @@ function Contact() {
                 </i>
                 <div className="info">
                   <h3>address :</h3>
-                  <p>mumbai, india - 400104</p>
+                  <p>Ecuador, ambato - Tungurahua</p>
                 </div>
               </div>
 
@@ -76,7 +75,7 @@ function Contact() {
                 </i>
                 <div className="info">
                   <h3>email :</h3>
-                  <p>sanashaikh@gmail.com</p>
+                  <p>corozco6489@gmail.com</p>
                 </div>
               </div>
 
@@ -86,22 +85,22 @@ function Contact() {
                 </i>
                 <div className="info">
                   <h3>number :</h3>
-                  <p>+123-456-7890</p>
+                  <p>+593 983592690</p>
                 </div>
               </div>
             </div>
 
             <div className="share">
-              <a href="#" >
+              <a href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ" target="_blank" >
                 <YouTube className="fas fa-user" />{" "}
               </a>
-              <a href="#" >
+              <a href="https://www.linkedin.com/in/carlos-orozco-64892021/" target="_blank" >
                 <LinkedIn className="fas fa-user" />{" "}
               </a>
-              <a href="#" >
+              <a href="https://github.com/corozco6489" target="_blank">
                 <Facebook className="fas fa-user" />{" "}
               </a>
-              <a href="#">
+              <a href="https://github.com/corozco6489" target="_blank">
                 <Instagram className="fas fa-user" />{" "}
               </a>
             </div>
