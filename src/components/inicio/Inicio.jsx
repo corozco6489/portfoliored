@@ -5,7 +5,7 @@ import { Person } from "@material-ui/icons";
 import { useRef } from "react";
 import { useEffect } from "react";
 import { init } from "ityped";
-import { Link, Switch, Route } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 
 function Inicio() {
   const textRef = useRef();
@@ -47,11 +47,11 @@ function Inicio() {
             </a>
           </Link>
 
-          <Switch>
+          {/* <Switch>
             <Route exact path="/about">
               <About />
             </Route>
-          </Switch>
+          </Switch> */}
         </div>
       </section>
     </div>

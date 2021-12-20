@@ -38,12 +38,10 @@ export default function Products() {
             </div>
           ))}
         </div>
-        <Link to="/products">
         <a href="#" className="btn">
     
-         Update Page (F5)<i className="fas fa-redo"><Update  className="fas fa-user"/></i>{" "}
-        </a>
-        </Link>
+    Update Page (F5)<i className="fas fa-redo"><Update  className="fas fa-user"/></i>{" "}
+   </a>
      
       </section>
     </div>
