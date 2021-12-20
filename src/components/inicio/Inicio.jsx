@@ -28,7 +28,7 @@ function Inicio() {
         </div>
 
         <div className="content">
-          <h3>hi, i am Carlos Orozco</h3>
+          <h3>Hi, I am Carlos Orozco</h3>
           <span>
             Front-End <span ref={textRef}></span>
           </span>
@@ -43,7 +43,7 @@ function Inicio() {
           <Link to="/about">
             <a className="btn">
               {" "}
-              about me <Person className="fas fa-user" />{" "}
+              About me <Person className="fas fa-user" />{" "}
             </a>
           </Link>
 

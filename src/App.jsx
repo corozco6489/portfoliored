@@ -1,19 +1,20 @@
 import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
+import Products from "./components/products/Products";
 
 import About from "./components/about/About";
 import Inicio from "./components/inicio/Inicio";
 import Portfolio from "./components/portfolio/Portfolio";
 import Blogs from "./components/blogs/Blogs";
 import Contact from "./components/contact/Contact";
-import Topbar from "./components/topbar/Topbar";
 import styled from "styled-components";
+import Curriculum from "./components/curriculum/Curriculum";
 import {
   Home,
   Person,
   BusinessCenter,
   Book,
-  Contacts,
+  Contacts,Shop
 } from "@material-ui/icons";
 
 
@@ -87,7 +88,10 @@ function App() {
         </LinkStyles>
 
         <LinkStyles to="/blogs">
-          <Book className="icons" /> <span>Blogs</span>{" "}
+          <Book className="icons" /> <span>Courses</span>{" "}
+        </LinkStyles>
+        <LinkStyles to="/products">
+          <Shop className="icons" /> <span>Products</span>{" "}
         </LinkStyles>
 
         <LinkStyles to="/contact">
@@ -108,8 +112,14 @@ function App() {
         <Route exact path="/blogs">
           <Blogs />
         </Route>
+        <Route exact path="/products">
+          <Products />
+        </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        <Route exact path="/curriculum">
+          <Curriculum />
         </Route>
       </Switch>
     </>

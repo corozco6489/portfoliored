@@ -47,10 +47,11 @@
                 margin-top: 1rem;
                 border-radius: 5rem;
                 background: crimson;
-                padding: 0.7rem;
+                padding: 0.4rem;
                 font-size: 1.8rem;
                 color: #fff;
                 padding-left: 2rem;
+                margin: 1rem;
               }
           
               .btn .fa-user {
@@ -65,6 +66,8 @@
                 margin-left: 1rem;
                 -webkit-transition: 0.2s linear;
                 transition: 0.2s linear;
+
+              
               }
           
               .btn:hover .fa-user {

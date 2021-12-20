@@ -1,7 +1,7 @@
 import "./blogs.scss";
 import Topbar from "../topbar/Topbar";
 import { Link, CalendarToday, Person } from "@material-ui/icons";
-import { featuredBlogs } from "../../datos";
+import { certificaciones } from "../../cursos";
 
 import { useState, useEffect } from "react";
 
@@ -9,7 +9,7 @@ function Blogs() {
   const [blog, setBlog] = useState([]);
 
   useEffect(() => {
-    setBlog(featuredBlogs);
+    setBlog(certificaciones);
   }, [true]);
 
   return (
@@ -17,7 +17,7 @@ function Blogs() {
       <section className="blogs">
         <h1 className="heading">
           {" "}
-          <span>my</span> blogs{" "}
+          <span>my</span> Courses{" "}
         </h1>
 
         <div className="box-container">

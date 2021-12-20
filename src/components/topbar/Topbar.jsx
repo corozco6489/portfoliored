@@ -2,7 +2,7 @@ import React from "react";
 import "./topbar.scss";
 import "../../global.scss";
 
-import { Home ,Person ,BusinessCenter,Book,Contacts} from "@material-ui/icons";
+import { Home ,Person ,BusinessCenter,Book,Contacts,LocalGroceryStoreIcon} from "@material-ui/icons";
 
 function Topbar() {
   return (

@@ -58,8 +58,8 @@ function Contact() {
                   <LocationOn className="fas fa-user" />{" "}
                 </i>
                 <div className="info">
-                  <h3>address :</h3>
-                  <p>Ecuador, ambato - Tungurahua</p>
+                  <h3>Address :</h3>
+                  <p>Ecuador, Ambato - Tungurahua</p>
                 </div>
               </div>
 
@@ -68,7 +68,7 @@ function Contact() {
                   <Email className="fas fa-user" />{" "}
                 </i>
                 <div className="info">
-                  <h3>email :</h3>
+                  <h3>Email :</h3>
                   <p>corozco6489@gmail.com</p>
                 </div>
               </div>
@@ -78,7 +78,7 @@ function Contact() {
                   <Phone className="fas fa-user" />{" "}
                 </i>
                 <div className="info">
-                  <h3>number :</h3>
+                  <h3>Number :</h3>
                   <p>+593 983592690</p>
                 </div>
               </div>
@@ -115,7 +115,7 @@ function Contact() {
               <a href="http://electrodev.cf/" target="_blank">
                 <Language className="fas fa-user" />{" "}
               </a>
-              <a href="https://github.com/corozco6489" target="_blank">
+              <a href="https://wa.me/5930983592690" target="_blank">
                 <WhatsApp className="fas fa-user" />{" "}
               </a>
             </div>
@@ -151,7 +151,7 @@ function Contact() {
               required
             ></textarea>
 
-            <input type="submit" value="send message" className="btn" />
+            <input type="submit" value="Send Message" className="btn" />
             <br />
             <p> {message && " Thank You...."}</p>
           </form>

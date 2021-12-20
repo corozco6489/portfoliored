@@ -1,7 +1,9 @@
 import React from "react";
 import Topbar from "../topbar/Topbar";
 import "./about.scss";
-import { Book, School } from "@material-ui/icons";
+import { Book, School ,InsertLink } from "@material-ui/icons";
+import { Link } from "react-router-dom";
+
 
 function About() {
   return (
@@ -51,7 +53,7 @@ function About() {
                 </h3>
                 <h3>
                   {" "}
-                  <span>language : </span> Spanish, english(basic){" "}
+                  <span>language : </span> Spanish, English(basic){" "}
                 </h3>
               </div>
             </div>
@@ -63,8 +65,18 @@ function About() {
               className="btn"
             >
               {" "}
-              download CV <Book className="fas fa-user" />{" "}
+              Download CV <Book className="fas fa-user" />{" "}
             </a>
+          <Link to="/curriculum">
+          <a
+              a
+              href="/assets/doc/CarlosOrozco.pdf"
+            
+              className="btn"
+            >
+              {" "}
+              View CV <InsertLink className="fas fa-user" />{" "}
+            </a></Link>
           </div>
 
           <div className="count-container">
