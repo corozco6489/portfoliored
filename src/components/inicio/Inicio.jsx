@@ -6,6 +6,18 @@ import { useRef } from "react";
 import { useEffect } from "react";
 import { init } from "ityped";
 import { Link, Switch, Route } from "react-router-dom";
+import {
+  Facebook,
+  Instagram,
+  LinkedIn,
+  YouTube,
+  Email,
+  Phone,
+  LocationOn,
+  Language,
+  WhatsApp,
+  GitHub
+} from "@material-ui/icons";
 
 function Inicio() {
   const textRef = useRef();
@@ -40,12 +52,39 @@ function Inicio() {
             any task in a self-taught way.
           </p>
 
-          <Link to="/about">
+          {/* <Link to="/about">
             <a className="btn">
               {" "}
               About me <Person className="fas fa-user" />{" "}
             </a>
-          </Link>
+          </Link> */}
+          <div className="share">
+          <a
+              href="https://www.linkedin.com/in/carlos-orozco-64892021/"
+              target="_blank"
+            >
+              <LinkedIn className="fas fa-user" />{" "}
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCgR2CZLCClCdTeo_l5W53eQ"
+              target="_blank"
+            >
+              <YouTube className="fas fa-user" />{" "}
+            </a>
+            <a
+              href="https://github.com/corozco6489"
+              target="_blank"
+            >
+              <GitHub className="fas fa-user" />{" "}
+            </a>
+           
+            <a href="http://electrodev.cf/" target="_blank">
+              <Language className="fas fa-user" />{" "}
+            </a>
+            <a href="https://wa.me/5930983592690" target="_blank">
+              <WhatsApp className="fas fa-user" />{" "}
+            </a>
+          </div>
 
           <Switch>
             <Route exact path="/about">

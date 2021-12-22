@@ -13,6 +13,7 @@ import {
   LocationOn,
   Language,
   WhatsApp,
+  GitHub
 } from "@material-ui/icons";
 function Contact() {
   const formRef = useRef();
@@ -112,6 +113,12 @@ function Contact() {
               >
                 <LinkedIn className="fas fa-user" />{" "}
               </a>
+              <a
+              href="https://github.com/corozco6489"
+              target="_blank"
+            >
+              <GitHub className="fas fa-user" />{" "}
+            </a>
               <a href="http://electrodev.cf/" target="_blank">
                 <Language className="fas fa-user" />{" "}
               </a>

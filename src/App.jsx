@@ -43,7 +43,7 @@ const LinkStyles = styled(Link)`
   transition: 0.2s linear;
   text-decoration: none;
   .icons {
-    color: crimson;
+    color: #18d26e;
     padding-right: 0.5rem;
     font-size: 30px;
   }
@@ -52,8 +52,9 @@ const LinkStyles = styled(Link)`
   }
 
   &:hover {
-    background: crimson;
+    background: #18d26e;
     padding-bottom: 6rem;
+    color:white;
 
     .icons {
       color: white;

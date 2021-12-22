@@ -9,7 +9,7 @@
   // text-transform: capitalize;
 }
 
-$crimson : crimson;
+$crimson : #18d26e;
 $black:#0d0d0d;
 $light-bg:#1a1a1a;
 $white:#fff;
@@ -53,7 +53,7 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background: crimson;
+    background: #18d26e;
     padding: 0.7rem;
     font-size: 1.7rem;
     color: #fff;
@@ -67,7 +67,7 @@ section{
     font-size: 1.7rem;
     text-align: center;
     background: #fff;
-    color: crimson;
+    color: #18d26e;
     border-radius: 50%;
     margin-left: 1rem;
     -webkit-transition: 0.2s linear;
