@@ -36,13 +36,13 @@ function Inicio() {
       {/* <Topbar/> */}
       <section className="home">
         <div className="image">
-          <img loading="lazy" src="assets/images/user.png" alt="" />
+          <img loading="lazy" src="assets/images/user1.png" alt="" />
         </div>
 
         <div className="content">
           <h3>Hi, I am Carlos Orozco</h3>
           <span>
-            Front-End <span ref={textRef}></span>
+          Engineer & Front-End <span ref={textRef}></span>
           </span>
 
           <p>

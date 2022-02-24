@@ -28,7 +28,6 @@
         width: 100%;
         line-height: 5rem;
         border-radius: 50%;
-        background: $light-bg;
         color:$white;
         text-align: center;
         margin-right: .3rem;
@@ -46,7 +45,7 @@
         }
 
         &:hover{
-          background: #18d26e;
+          color: #18d26e;
         }
       }
     }

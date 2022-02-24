@@ -387,3 +387,41 @@ export const contentPortfolio = [
     description:"Matlab - Guide"
   },
 ];
+
+
+
+export const reactPortfolio = [
+  {
+    id: 1,
+    title: "Portfolio Dark mode",
+    img: "assets/images/react1.png",
+    link:"https://github.com/corozco6489/Portfolio-dark-mode",
+    site:"https://corozco6489.github.io/Portfolio-dark-mode/",
+    description:"Responsive multicolor portfolio page using React and CSS."
+  },
+  {
+    id: 2,
+    title: "Portfolio",
+    img: "assets/images/react3.png",
+    link:"https://github.com/corozco6489/Orozco",
+    site:"https://faztcode.tk/",
+    description:"Responsive React portfolio website using functional components and React hooks with Sass."
+  },
+  {
+    id: 3,
+    title: "E-Commerce Application",
+    img: "assets/images/react4.png",
+    link:"https://github.com/corozco6489/Ecommerce",
+    site:"https://corozco6489.github.io/Ecommerce/",
+    description:"Website from scratch using React.js"
+  },
+  {
+    id: 4,
+    title: "Chat Application",
+    img: "assets/images/react5.png",
+    link:"https://github.com/corozco6489/Chat-Application",
+    site:"https://corozco6489.github.io/Chat-Application/",
+    description:"Chat Application with react chat engine , socket , rest api"
+  },
+ 
+];

@@ -20,7 +20,7 @@ export default function Curriculum() {
         <div className="left-content">
           <div className="profile">
             <div className="image">
-              <img src="assets/images/carlos.jpeg" alt="" />
+              <img src="assets/images/image.png" alt="" />
             </div>
             <h2 className="name">Carlos Orozco</h2>
             <p className="career">Ingeniero Electronico</p>

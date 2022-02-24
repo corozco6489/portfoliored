@@ -91,9 +91,9 @@ function App() {
         <LinkStyles to="/blogs">
           <Book className="icons" /> <span>Courses</span>{" "}
         </LinkStyles>
-        <LinkStyles to="/products">
+        {/* <LinkStyles to="/products">
           <Shop className="icons" /> <span>Products</span>{" "}
-        </LinkStyles>
+        </LinkStyles> */}
 
         <LinkStyles to="/contact">
           <Contacts className="icons" />
